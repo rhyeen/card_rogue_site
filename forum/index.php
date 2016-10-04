@@ -1,7 +1,8 @@
+<?php if(true){ ?>
 <!doctype html> 
 <html>
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Card Rogue</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Card Rogue, a multiplayer tabletop roguelike.">
@@ -16,35 +17,33 @@
       ga('send', 'pageview');
     </script>
 </head>
-<body class="dark">
-	<div class="page-container">
-    	<section class="top-box">
-        	<nav class="main-nav">
+<body>
+    <div class="page-container">
+        <section class="top-box">
+            <nav class="main-nav">
                 <ul>
-                	<a class="nav" href="../index.html"><li class="home-page">Home</li></a>
+                    <a class="nav" href="../index.html"><li class="home-page">Home</li></a>
                     <a class="nav" href="../rulebook/index.html"><li class="second-page">Rulebook</li></a>
                     <a class="nav" href="../print/index.html"><li class="third-page">Print</li></a>
                     <a class="nav" href="../store/index.html"><li class="fifth-page">Store</li></a>
-                    <a class="nav" href="../forum/index.php"><li class="fourth-page">Forum</li></a>
-                    <a class="nav" href="#"><li class="special-page">Deep</li></a>
+                    <a class="nav" href="#"><li class="fourth-page">Forum</li></a>
+                    <a class="nav" href="../deep/index.html"><li class="special-page">Deep</li></a>
                 </ul>
-			</nav>
+            </nav>
         </section>
         <section class="content-box">
-        	<header>
-        		<h1>Card Rogue</h1>
-                <h2>Dig deeper into the game</h2>
+            <header>
+                <h1>Card Rogue</h1>
+                <h2>Forum</h2>
             </header>
             <section>
-                <p>Looking for deeper lore?  Or perhaps you want a better clarification on a specific rule?  This page is dedicated to all the hardcore players out there.  Although this page is barren now, once the game is in the hands of the players, this page will fill with useful content for those who want a deeper play experience.</p>
-                <p>Have a question about a rule or game mechanic that isn't listed here?  Send an email to cardrogue.info&#64;gmail.com and I'll look into it.</p>
+                <p>Come back once the games ship out. Until then, all questions and comments should be directed to the <a href="https://www.kickstarter.com/projects/866896753/card-rogue-a-tabletop-roguelike/comments">Kickstarter page</a>.</p>
             </section>
         </section>
         <footer>
-        	<p class="boxed">Copyright &copy; 2015.  All Rights Reserved.</p>
+            <p class="boxed">Copyright &copy;.  All Rights Reserved.</p>
         </footer>
     </div>
 </body>
 </html>
-
-
+<?php } ?>
