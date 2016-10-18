@@ -1,0 +1,80 @@
+<html>
+<head>
+	<style type="text/css"></style>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script type="text/javascript" src="js/options.js"></script>
+</head>
+<body>
+	<section class="options">
+		<h3>Instructions (Chrome browser)</h3>
+		<p>Right-click and choose <strong>Print...</strong></p>
+		<p>You can choose your <strong>Paper size</strong> as <strong>Letter</strong> or <strong>A4</strong>.</p>
+		<p>Uncheck <strong>Headers and footers</strong>, and make sure <strong>Margins</strong> is set to <strong>Default</strong>.</p>
+		<p><strong>Layout</strong> should be <strong>Portrait</strong>. 
+		<h4>Options</h4>
+		<label>
+			<input id="roundedBorder" type="checkbox" onclick="roundedBorder()" checked>
+			<span>Rounded borders</span>
+		</label>
+		<label>
+			<input id="cardBacks" type="checkbox" onclick="cardBacks()" checked>
+			<span>Show card backs</span>
+		</label>
+		<label>
+			<input id="thickerPadding" type="checkbox" onclick="thickerPadding()">
+			<span>Thicker padding</span>
+		</label>
+	</section>
+	<section class="page-container">
+		<section class="card-holder large">
+			<div class="card">
+				<img src="images/character/rogue.png">
+			</div>
+			<div class="card">
+				<img src="images/character/warrior.png">
+			</div>
+		</section>
+		<section class="card-holder-back large">
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+		</section>
+		<section class="card-holder large">
+			<div class="card">
+				<img src="images/character/cleric.png">
+			</div>
+			<div class="card">
+				<img src="images/character/explorer.png">
+			</div>
+		</section>
+		<section class="card-holder-back large">
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+		</section>
+		<section class="card-holder large">
+			<div class="card">
+				<img src="images/character/mage.png">
+			</div>
+			<div class="card">
+				<img src="images/character/bard.png">
+			</div>
+		</section>
+		<section class="card-holder-back large">
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+			<div class="card">
+				<img src="images/character/ba_character.png">
+			</div>
+		</section>
+	</section>
+</body>
+</html>
