@@ -37,7 +37,7 @@
                 <h2>Forum</h2>
             </header>
             <section>
-                <p>You can find the <a href="http://boardgamegeek.com/boardgame/207311/card-rogue/forums/0" target="_blank">offical Card Rogue forum over at Board Game Geek</a>, or you can leave a message on the <a href="https://www.kickstarter.com/projects/866896753/card-rogue-a-tabletop-roguelike/comments">Kickstarter page</a>.</p>
+                <p>You can find the <a href="https://boardgamegeek.com/boardgame/207311/card-rogue/forums/0" target="_blank">offical Card Rogue forum over at Board Game Geek</a>, or you can leave a message on the <a href="https://www.kickstarter.com/projects/866896753/card-rogue-a-tabletop-roguelike/comments">Kickstarter page</a>.</p>
             </section>
         </section>
         <footer>
